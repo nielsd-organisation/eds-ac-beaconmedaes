@@ -1,10 +1,10 @@
 {
   "mappings": [
-    "/content/ac-beaconmedaes-eds/:/",
-    "/content/ac-beaconmedaes-eds/configuration:/.helix/config.json",
-    "/content/ac-beaconmedaes-eds/metadata:/metadata.json"
+    "/content/eds-ac-beaconmedaes/:/",
+    "/content/eds-ac-beaconmedaes/configuration:/.helix/config.json",
+    "/content/eds-ac-beaconmedaes/metadata:/metadata.json"
   ],
   "includes": [
-    "/content/ac-beaconmedaes-eds/"
+    "/content/eds-ac-beaconmedaes/"
   ]
 }
