@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https:/author-p33458-e1003325.adobeaemcloud.com/bin/franklin.delivery/nielsd-organisation/xwalk-ac-demo-brand/main"
+    url: "https://author-p33458-e1003325.adobeaemcloud.com/bin/franklin.delivery/nielsd-organisation/eds-ac-beaconmedaes/main"
     type: "markup"
     suffix: ".html"
