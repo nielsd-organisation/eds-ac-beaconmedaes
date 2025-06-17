@@ -214,5 +214,24 @@
         "valueType": "string"
       }
     ]
+  },
+  {
+    "id": "quote",
+    "fields": [
+      {
+        "name": "quote",
+        "label": "Quote",
+        "component": "richtext",
+        "valueType": "string",
+        "value": ""
+      },
+      {
+        "name": "author",
+        "label": "Author",
+        "component": "text",
+        "valueType": "string",
+        "value": ""
+      }
+    ]
   }
 ]
