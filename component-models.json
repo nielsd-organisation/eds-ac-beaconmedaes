@@ -216,6 +216,7 @@
       {
         "component": "container",
         "label": "Primary Button",
+        "name": "buttonPrimaryContainer",
         "collapsible": true,
         "fields": [
           {
@@ -238,6 +239,7 @@
       {
         "component": "container",
         "label": "Secondary Button",
+        "name": "buttonSecondaryContainer",
         "collapsible": true,
         "fields": [
           {
