@@ -216,46 +216,44 @@
       {
         "component": "container",
         "label": "Primary Button",
-        "name": "button-primary",
         "collapsible": true,
         "fields": [
           {
-            "component": "text",
-            "label": "Text",
-            "name": "text",
-            "valueType": "string"
-          },
-          {
             "component": "aem-content",
             "label": "Path",
-            "name": "path",
+            "name": "buttonPrimary",
             "valueType": "string",
             "validation": {
               "rootPath": "/content/eds-beaconmedaes"
             }
+          },
+          {
+            "component": "text",
+            "label": "Text",
+            "name": "buttonPrimaryText",
+            "valueType": "string"
           }
         ]
       },
       {
         "component": "container",
         "label": "Secondary Button",
-        "name": "button-secondary",
         "collapsible": true,
         "fields": [
           {
-            "component": "text",
-            "label": "Text",
-            "name": "text",
-            "valueType": "string"
-          },
-          {
             "component": "aem-content",
             "label": "Path",
-            "name": "path",
+            "name": "buttonSecondary",
             "valueType": "string",
             "validation": {
               "rootPath": "/content/eds-beaconmedaes"
             }
+          },
+          {
+            "component": "text",
+            "label": "Text",
+            "name": "buttonSecondaryText",
+            "valueType": "string"
           }
         ]
       }
