@@ -13,7 +13,8 @@
     "build:json:definitions": "merge-json-cli -i \"models/_component-definition.json\" -o \"component-definition.json\"",
     "build:json:filters": "merge-json-cli -i \"models/_component-filters.json\" -o \"component-filters.json\"",
     "prepare": "husky",
-    "import": "aem-import-helper import"
+    "import": "aem-import-helper import",
+    "aem-upload": "aem-import-helper aem upload"
   },
   "repository": {
     "type": "git",
