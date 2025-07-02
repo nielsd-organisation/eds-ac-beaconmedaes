@@ -216,7 +216,7 @@
       {
         "component": "aem-content",
         "label": "Path",
-        "name": "buttonPrimary",
+        "name": "heroButtons_buttonPrimary",
         "valueType": "string",
         "validation": {
           "rootPath": "/content/beaconmedaes"
@@ -225,13 +225,13 @@
       {
         "component": "text",
         "label": "Text",
-        "name": "buttonPrimaryText",
+        "name": "heroButtons_buttonPrimaryText",
         "valueType": "string"
       },
       {
         "component": "aem-content",
         "label": "Path",
-        "name": "buttonSecondary",
+        "name": "heroButtons_buttonSecondary",
         "valueType": "string",
         "validation": {
           "rootPath": "/content/beaconmedaes"
@@ -240,7 +240,7 @@
       {
         "component": "text",
         "label": "Text",
-        "name": "buttonSecondaryText",
+        "name": "heroButtons_buttonSecondaryText",
         "valueType": "string"
       }
     ]
