@@ -260,5 +260,17 @@
         ]
       }
     ]
+  },
+  {
+    "id": "hero2",
+    "fields": [
+      {
+        "component": "richtext",
+        "name": "text",
+        "value": "",
+        "label": "Text",
+        "valueType": "string"
+      }
+    ]
   }
 ]
