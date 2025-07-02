@@ -225,7 +225,7 @@
             "name": "buttonPrimary",
             "valueType": "string",
             "validation": {
-              "rootPath": "/content/eds-beaconmedaes"
+              "rootPath": "/content/beaconmedaes"
             }
           },
           {
@@ -248,7 +248,7 @@
             "name": "buttonSecondary",
             "valueType": "string",
             "validation": {
-              "rootPath": "/content/eds-beaconmedaes"
+              "rootPath": "/content/beaconmedaes"
             }
           },
           {
