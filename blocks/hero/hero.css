@@ -3,6 +3,12 @@
     width: 100%;
     padding: 40px;
 
+    .hero__buttons > div {
+        display: flex;
+        flex-direction: row;
+        gap: 32px;
+    }
+
     main > .section > div:has(&) {
         max-width: unset;
         padding: 0;
@@ -39,11 +45,5 @@
         & > * {
             max-width: 550px;
         }
-    }
-
-    .hero__buttons > div {
-        display: flex;
-        flex-direction: row;
-        gap: 32px;
     }
 }
