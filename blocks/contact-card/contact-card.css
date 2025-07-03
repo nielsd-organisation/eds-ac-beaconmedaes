@@ -1,0 +1,23 @@
+.block.contact-card {
+    background: var(--link-color);
+    text-align: center;
+    border-radius: 50px;
+    padding: 100px 0 80px;
+
+    h2, p {
+        color: white;
+    }
+
+    a.button.secondary {
+        border-color: var(--link-color);
+
+        &:hover {
+            border-color: white;
+        }
+    }
+
+    & > * {
+        max-width: 748px;
+        margin: 0 auto;
+    }
+}
