@@ -246,7 +246,7 @@
     ]
   },
   {
-    "id": "contact",
+    "id": "contact-card",
     "fields": [
       {
         "component": "richtext",
