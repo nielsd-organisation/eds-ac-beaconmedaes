@@ -150,7 +150,7 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "hero",
+                  "name": "Hero",
                   "model": "hero"
                 }
               }
@@ -165,7 +165,7 @@
               "page": {
                 "resourceType": "core/franklin/components/block/v1/block",
                 "template": {
-                  "name": "contact-card",
+                  "name": "Contact Card",
                   "model": "contact-card"
                 }
               }
