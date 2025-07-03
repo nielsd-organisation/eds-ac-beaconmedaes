@@ -214,46 +214,50 @@
         "valueType": "string"
       },
       {
-        "component": "aem-content",
-        "label": "Path",
-        "name": "heroButtons_buttonPrimary",
-        "valueType": "string",
-        "validation": {
-          "rootPath": "/content/beaconmedaes"
-        }
+        "component": "container",
+        "label": "Primary Button",
+        "name": "button-primary",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "text",
+            "label": "Text",
+            "name": "text",
+            "valueType": "string"
+          },
+          {
+            "component": "aem-content",
+            "label": "Path",
+            "name": "path",
+            "valueType": "string",
+            "validation": {
+              "rootPath": "/content/eds-beaconmedaes"
+            }
+          }
+        ]
       },
       {
-        "component": "text",
-        "label": "Text",
-        "name": "heroButtons_buttonPrimaryText",
-        "valueType": "string"
-      },
-      {
-        "component": "aem-content",
-        "label": "Path",
-        "name": "heroButtons_buttonSecondary",
-        "valueType": "string",
-        "validation": {
-          "rootPath": "/content/beaconmedaes"
-        }
-      },
-      {
-        "component": "text",
-        "label": "Text",
-        "name": "heroButtons_buttonSecondaryText",
-        "valueType": "string"
-      }
-    ]
-  },
-  {
-    "id": "contact-card",
-    "fields": [
-      {
-        "component": "richtext",
-        "name": "text",
-        "value": "",
-        "label": "Text",
-        "valueType": "string"
+        "component": "container",
+        "label": "Secondary Button",
+        "name": "button-secondary",
+        "collapsible": true,
+        "fields": [
+          {
+            "component": "text",
+            "label": "Text",
+            "name": "text",
+            "valueType": "string"
+          },
+          {
+            "component": "aem-content",
+            "label": "Path",
+            "name": "path",
+            "valueType": "string",
+            "validation": {
+              "rootPath": "/content/eds-beaconmedaes"
+            }
+          }
+        ]
       }
     ]
   }
