@@ -167,7 +167,7 @@
                 "template": {
                   "name": "Contact Card",
                   "model": "contact-card",
-                  "text": "<h2>Seeking expert guidance?</h2></p><p>Connect with us. Backed by a robust global network, we specialize in medical gas distribution systems.</p><p><a href=\"/en-uk/contact-us\">Get in Touch</a>"
+                  "text": "<h2>Seeking expert guidance?</h2><p>Connect with us. Backed by a robust global network, we specialize in medical gas distribution systems.</p><a href=\"/en-uk/contact-us\">Get in Touch</a>"
                 }
               }
             }
